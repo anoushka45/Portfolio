@@ -8,7 +8,7 @@ const Main = () => {
     <div id='main'>
             <h1 className='absolute top-0 left-0 z-10 p-4 text-4xl font-bold text-gray-200'>PORTFOLIO</h1>
            
-      <img src="/src/assets/dp3.jpg" alt="dp" className='w-full h-screen object-cover ' />
+      <img src="../assets/dp3.jpg" alt="dp" className='w-full h-screen object-cover ' />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/0 '>
         <div className='max-w-[700px]  m-auto h-full w-full flex flex-col justify-center  items-center'>
        
