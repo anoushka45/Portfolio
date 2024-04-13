@@ -14,7 +14,7 @@ const Sidenav = () => {
     <>
      <div>
 
-<AiOutlineMenu onClick={handleNav} className='absolute top-4 right-4 z-50 md:hidden'></AiOutlineMenu>
+<AiOutlineMenu onClick={handleNav} className='absolute top-4 right-4 z-50 md:hidden text-white'></AiOutlineMenu>
 {
   nav?(
     <div className='fixed w-full h-screen bg-white/80 flex flex-col justify-center items-center z-20 '>
