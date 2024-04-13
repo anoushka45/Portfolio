@@ -2,13 +2,14 @@ import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import {FaLinkedinIn,FaFacebookF,FaInstagram, FaGithub} from 'react-icons/fa';
 import resume from '/Resume.pdf'
+import mainPic from '../assets/dp3.jpg'
 const Main = () => {
  
   return (
     <div id='main'>
             <h1 className='absolute top-0 left-0 z-10 p-4 text-4xl font-bold text-gray-200'>PORTFOLIO</h1>
            
-      <img src="../assets/dp3.jpg" alt="dp" className='w-full h-screen object-cover ' />
+      <img src={mainPic} alt="dp" className='w-full h-screen object-cover ' />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/0 '>
         <div className='max-w-[700px]  m-auto h-full w-full flex flex-col justify-center  items-center'>
        
