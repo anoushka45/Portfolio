@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  scroll-behavior:smooth;
+  
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+.playfair-display{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  
+}
+
+#font{
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+  background-image: linear-gradient(black, rgb(16, 16, 32), rgb(8, 8, 121),rgb(16, 16, 32))
+}
+.glow-text {
+  text-shadow: 0 0 10px #00c0ff, 0 0 20px #00c0ff, 0 0 30px #00c0ff, 0 0 40px #00c0ff, 0 0 50px #00c0ff, 0 0 60px #00c0ff, 0 0 70px #00c0ff;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 3s ease;
+}
+
+.fade-in.active {
+  opacity: 1;
+}
+
+
+.floating { 
+  
+            background: transparent;
+            
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 15px); }
+	100% { transform: translate(0, -0px); } 
+}
+
