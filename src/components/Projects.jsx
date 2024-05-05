@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import ProjectItem from './ProjectItem';
 import sdsImg from '..//assets/sds.png';
+import mediaProj from '..//assets/mediaProj.png';
+
 import JobImg from '..//assets/Job.png';
 
 import {FaLinkedinIn,FaFacebookF,FaInstagram, FaGithub} from 'react-icons/fa';
@@ -45,6 +47,7 @@ const Projects = () => {
       <div className='grid sm:grid-cols-2 gap-12'>
         <ProjectItem img={sdsImg} title="Student Diagnostic System" link="https://github.com/anoushka45/Student-Diagnostic-System" />
         <ProjectItem img={JobImg} title="Jobportal" link= "https://github.com/anoushka45/Jobportal" />
+        <ProjectItem img={mediaProj} title="Media and folder management system" link= "https://github.com/anoushka45/folder-management-system" />
 
         
       </div>
