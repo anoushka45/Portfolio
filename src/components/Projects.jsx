@@ -45,9 +45,11 @@ const Projects = () => {
       <p id='font' className='text-center py-8 text-[#fefff7] fade-in'>Here are some examples of my recent work in web development. I've enjoyed working on these projects, and I hope they give you a good sense of my skills and style. Feel free to take a look around and let me know if you have any questions.</p>
 
       <div className='grid sm:grid-cols-2 gap-12'>
+        <ProjectItem img={mediaProj} title="Media and folder management system" link= "https://github.com/anoushka45/folder-management-system" />
         <ProjectItem img={sdsImg} title="Student Diagnostic System" link="https://github.com/anoushka45/Student-Diagnostic-System" />
         <ProjectItem img={JobImg} title="Jobportal" link= "https://github.com/anoushka45/Jobportal" />
-        <ProjectItem img={mediaProj} title="Media and folder management system" link= "https://github.com/anoushka45/folder-management-system" />
+
+
 
         
       </div>
